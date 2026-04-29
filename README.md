@@ -1,6 +1,6 @@
 # API Automation Framework with RestAssured
 
-This project is a REST API test automation framework developed with **Java 11, RestAssured, Cucumber, JUnit, Maven, JSON Schema Validator, and GitHub Actions**.
+This project is a REST API test automation framework developed with **Java 17, RestAssured, Cucumber, JUnit, Maven, JSON Schema Validator, and GitHub Actions**.
 
 It was created as part of a QA Automation portfolio to demonstrate professional practices in API testing, BDD, reusable architecture, contract validation, request/response validation, and CI/CD-ready automated test execution.
 
@@ -8,7 +8,7 @@ It was created as part of a QA Automation portfolio to demonstrate professional 
 
 ## 🚀 Technologies Used
 
-- Java 11
+- Java 17
 - RestAssured
 - Cucumber
 - JUnit
@@ -194,7 +194,7 @@ src/test/resources/schemas
 
 Make sure you have installed:
 
-- Java 11+
+- Java 17+
 - Maven
 - Git
 
@@ -270,7 +270,7 @@ Workflow file:
 The pipeline performs:
 
 - Repository checkout
-- Java 11 setup
+- Java 17 setup
 - Maven dependency cache
 - Automated test execution
 - Cucumber report upload as an artifact
